@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="styles/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Matrix</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="sign-in.html">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="narudzba.html">Narudžba</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="" tabindex="-1" aria-disabled="true"></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pretraži</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="images/sl2.jpg" alt="sl2">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="images/sl1.jpg" alt="sl1">
+        <div class="container">
+          <div class="carousel-caption">
+            
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="images/sl3.jpg" alt="sl3">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  
+
+  
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">      
+        <h2 class="featurette-heading">PC konfiguracija <span class="text-muted">5.300 kn</span></h2>
+        <p class="lead">AMD Ryzen 3 3200G up to 4.0GHz, 8GB DDR4, 250GB NVMe SSD, NVIDIA GeForce GTX1650 4GB</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <a href="index3.html"></a>
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl6.jpg" alt="sl6">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">PC konfiguracija<span class="text-muted"> 12.399 kn</span></h2>
+        <p class="lead">Intel Core i7 10700F up to 4.8GHz, 16GB DDR4, 1TB NVMe SSD, NVIDIA GeForce RTX3060 12GB</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl8.jpg" alt="sl8">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">PC konfiguracija <span class="text-muted">8.899 kn</span></h2>
+        <p class="lead">Intel Core i5 10400 up to 4.3GHz, 16GB DDR4, 250GB NVMe SSD + 1TB HDD, NVIDIA GeForce RTX2060 6GB</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl7.jpg" alt="sl7">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Monitor<span class="text-muted"> 999 kn</span></h2>
+        <p class="lead">Monitor Acer 24" Nitro VG240Ybmiix, UM.QV0EE.001, IPS, Gaming, AMD FreeSync 75Hz, ZeroFrame, VGA, HDMI, Full HD</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl9.jpg" alt="sl9">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Monitor <span class="text-muted">1.299 kn</span></h2>
+        <p class="lead">Monitor Samsung 24" Odyssey LC24RG50FQRXEN, VA, Gaming, AMD FreeSync 144Hz, HDMI, DP, Zakrivljeni 1800R, Full HD</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl10.jpg" alt="sl10">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Monitor<span class="text-muted"> 1.899 kn</span></h2>
+        <p class="lead">Monitor AOC 27" 27G2U, IPS, Gaming, AMD FreeSync 144Hz, DP, 2xHDMI, 4xUSB3.0, 1ms, Pivot, Full HD</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl11.jpg" alt="sl11">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Procesor <span class="text-muted">1.599 kn</span></h2>
+        <p class="lead">AMD Ryzen 5 3600 (6C/12T, 4.2GHz, 32MB, AM4), with Wraith Stealth cooler</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl12.jpg" alt="sl12">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Procesor<span class="text-muted"> 2.499 kn</span></h2>
+        <p class="lead">Intel Core i7-10700, 2.90 GHz-4.80 GHz, LGA1200 BX8070110700</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl13.jpg" alt="sl13">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Procesor <span class="text-muted">7.199 kn</span></h2>
+        <p class="lead">AMD Ryzen 9 5950X (16C/32T, 4.9GHz, 64MB, AM4), 100-100000059WOF</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl14.jpg" alt="sl14">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Matična ploča<span class="text-muted"> 500 kn</span></h2>
+        <p class="lead">Gigabyte GA-A520M-S2H, AM4, 2xDDR4, 1xPCIex16, 1xPCIex1, ALC887, GbE LAN, 4xSATA3, 6x USB 3.2 Gen 1, 6x USB 2.0, 1xM.2, Micro ATX</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl15.jpg" alt="sl15">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Matična ploča <span class="text-muted">649 kn</span></h2>
+        <p class="lead">GIGABYTE B450 GAMING X, AM4, 4xDDR4, AMD Quad CrossFireX, 1xPCIex16, 1xPCIex4, 2xPCIex1, ALC892, GbE LAN, 6xSATA3, 2x USB 3.1 Gen 1, 6 x USB 2.0, 1xM.2, ATX</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl16.jpg" alt="sl16">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Matična ploča<span class="text-muted"> 1.400 kn</span></h2>
+        <p class="lead">Gigabyte Z590 D, LGA1200, 4xDDR4, 3xPCIex16, 2xPCIex1, AMD CrossFire, Realtek Audio, GbE LAN, 6xSATA3, 8xUSB 3.2 Gen1, 4xUSB 2.0, 2xM.2, ATX</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl17.jpg" alt="sl17">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">RAM <span class="text-muted">400 kn</span></h2>
+        <p class="lead">Kingston HyperX Fury DDR4 8GB 3200MHz</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl18.jpg" alt="sl18">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">RAM<span class="text-muted"> 729 kn</span></h2>
+        <p class="lead">Kingston HyperX Fury, DDR4 16GB (2x8GB), 3200MHz</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl19.jpg" alt="sl19">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">RAM <span class="text-muted">1.599 kn</span></h2>
+        <p class="lead">Corsair Vengeance LPX 2X16GB DDR4 3000 C15, Black, CMK32GX4M2B30C15</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl20.jpg" alt="sl20">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Grafička kartica<span class="text-muted"> 4.999 kn</span></h2>
+        <p class="lead">Radeon RX 580 8 GB </p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl21.jpg" alt="sl21">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Grafička kartica <span class="text-muted">5.499 kn</span></h2>
+        <p class="lead">MSI GeForce 1660 Super 6 GB </p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl22.jpg" alt="sl22">
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Grafička kartica<span class="text-muted"> 15.999 kn</span></h2>
+        <p class="lead">ASUS TUF Gaming NVIDIA GeForce RTX 3060 OC Edition 12 GB</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl23.jpg" alt="sl23">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Hard disk <span class="text-muted">299 kn</span></h2>
+        <p class="lead">Seagate Barracuda Guardian (3.5", 1TB, SATA 6Gb/s, 7200 RPM), ST1000DM010</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl24.jpg" alt="sl24">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Hard disk<span class="text-muted"> 450 kn</span></h2>
+        <p class="lead">Seagate Barracuda (3.5"/2TB/SATA 6Gb/s/7200rpm), ST2000DM008</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl25.jpg" alt="sl25">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Hard disk <span class="text-muted">850 kn</span></h2>
+        <p class="lead">WD Red NAS (4TB, SATA 6Gb/s, 256MB Cache, 5400rpm)</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl26.jpg" alt="sl26">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">SSD<span class="text-muted"> 200 kn</span></h2>
+        <p class="lead">Kingston A400, R500/W320,120GB, 7mm, 2.5"</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl27.jpg" alt="sl27">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">SSD <span class="text-muted">300 kn</span></h2>
+        <p class="lead">Adata 256GB SX6000 Lite PCIe M.2 2280 NVMe</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl28.jpg" alt="sl28">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">SSD<span class="text-muted"> 680 kn</span></h2>
+        <p class="lead">Adata 512GB XPG SPECTRIX S40G RGB PCIe M.2 2280 NVMe</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl29.jpg" alt="sl29">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Napajanje <span class="text-muted">289 kn</span></h2>
+        <p class="lead"> EVGA 500 W1, 80+, 500 W</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl30.jpg" alt="sl30">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Napajanje<span class="text-muted"> 430 kn</span></h2>
+        <p class="lead">Spire EAGLEFORCE, 600W, 80+</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl31.jpg" alt="sl31">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Napajanje <span class="text-muted">730 kn</span></h2>
+        <p class="lead">Seasonic B12 BC-850 Bronze, 850W, 80+ Bronze, ATX</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl32.jpg" alt="sl32">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Kućište<span class="text-muted"> 280 kn</span></h2>
+        <p class="lead">Zalman S3 Mid Tower</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl33.jpg" alt="sl33">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Kućište <span class="text-muted">450 kn</span></h2>
+        <p class="lead">Zalman S4 PLUS Mid Tower</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl34.jpg" alt="sl34">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Kućište<span class="text-muted"> 1.399 kn</span></h2>
+        <p class="lead">NZXT H510 Elite, bijelo bez napajanja, ATX</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl35.jpg" alt="sl35">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Miš <span class="text-muted">100 kn</span></h2>
+        <p class="lead">Genius Scorpion M6-400, gaming, 5000dpi</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl36.jpg" alt="sl36">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Miš<span class="text-muted"> 150 kn</span></h2>
+        <p class="lead">White Shark GM-5007 GALAHAD, 6.400 dpi, Bijeli</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl37.jpg" alt="sl37">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Miš <span class="text-muted">479 kn</span></h2>
+        <p class="lead">Logitech Gaming G402 Hyperion</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl38.jpg" alt="sl38">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Tipkovnica<span class="text-muted"> 100 kn</span></h2>
+        <p class="lead">White Shark GK-2021 KIOWA, gaming, crna</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl39.jpg" alt="sl39">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Tipkovnica <span class="text-muted">349 kn</span></h2>
+        <p class="lead">REDRAGON KUMARA K552, mehanička, RGB osvjetljenje</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl40.jpg" alt="sl40">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Tipkovnica<span class="text-muted"> 899 kn</span></h2>
+        <p class="lead">Razer BlackWidow V3 Tenkeyless, Green Switch, RZ03-03490300-R3W1</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl41.jpg" alt="sl41">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Slušalice <span class="text-muted">100 kn</span></h2>
+        <p class="lead">REDRAGON ARES H120, Wired Over Ear, Gaming with Mic Built-in Noise Reduction, for PC, Laptop, Tablet, PS4, Xbox One</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl42.jpg" alt="sl42">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Slušalice<span class="text-muted"> 250 kn</span></h2>
+        <p class="lead"> MARVO SCORPION HG9055, mikrofon, LED, PC/PS4/PS5, 7.1 Surround, crne</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl43.jpg" alt="sl43">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Slušalice <span class="text-muted">750 kn</span></h2>
+        <p class="lead">Razer Kraken - Multi-Platform Wired Gaming - Green, RZ04-02830200-R3M1</p>
+        <button><a href="sign-in.html"></a>Naruči</button>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="images/sl44.jpg" alt="sl44">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    
+    
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Povratak na vrh</a></p>
+    <p>&copy; 2021  &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    
+      
+  </body>
+</html>
